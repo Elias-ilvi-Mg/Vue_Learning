@@ -1,0 +1,29 @@
+
+    /* eslint-disable */
+<template>
+    <header>
+        <h1>{{ title }}</h1>
+        <Button 
+            @toogle-add-task="$emit('toggle-add-task')"
+            text="Add Task" 
+            color="green" />
+        <!-- <Button text="Update Task" color="blue" /> -->
+        <!-- <Button text="Remove Task" color="red" /> -->
+    </header>
+</template>
+
+<script>
+import Button from './Button.vue'
+
+export default {
+    name:'Header',
+    props: {
+        title: String,
+
+    },
+    components: {
+        Button
+    }
+}
+</script>
+
