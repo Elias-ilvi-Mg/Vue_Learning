@@ -52,19 +52,19 @@ export default {
       {
         id:1,
         text: 'Doctors Appointment',
-        day:'March 1st at 2:30pm',
-        reminder: true,
+        day:'March 2st at 4:30pm',
+        reminder: false,
       },
       {
         id:2,
         text:'Meeting at School',
-        day:'March 3rd at 1.30pm',
+        day:'March 4rd at 9.10pm',
         reminder: true,
       },
       {
         id:3,
         text:'Food Shopping',
-        day:'March 3rd at 11.00am',
+        day:'March 13rd at 2.00pm',
         reminder:false,
       }
     ]
