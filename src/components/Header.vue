@@ -6,7 +6,7 @@
         <Button 
             @toogle-add-task="$emit('toggle-add-task')"
             text="Add Task" 
-            color="green" />
+            color="red" />
         <!-- <Button text="Update Task" color="black" /> -->
         <!-- <Button text="Remove Task" color="red" /> -->
     </header>
